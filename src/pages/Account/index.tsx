@@ -1,8 +1,8 @@
 import * as React from "react";
-import { PasswordChangeForm } from "../../components/PasswordChangeForm";
 import { AuthUserContext } from "../../firebase/AuthUserContext";
 import { withAuthorization } from "../../firebase/withAuthorization";
 import { PasswordForgetForm } from "../PasswordForget/PasswordForgetForm";
+import { PasswordChangeForm } from "./PasswordChangeForm";
 
 export const AccountComponent = () => (
   <AuthUserContext.Consumer>

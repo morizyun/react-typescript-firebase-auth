@@ -11,7 +11,7 @@ import { SignIn } from "../pages/SignIn";
 import { SignUp } from "../pages/SignUp";
 import { Navigation } from "./Navigation";
 
-class App extends React.Component {
+class AppComponent extends React.Component {
   constructor(props: any) {
     super(props);
 
@@ -52,4 +52,4 @@ class App extends React.Component {
   }
 }
 
-export default withAuthentication(App);
+export const App = withAuthentication(AppComponent);

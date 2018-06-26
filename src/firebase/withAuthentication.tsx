@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import { firebase } from "../firebase";
 import { AuthUserContext } from "./AuthUserContext";
 

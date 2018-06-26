@@ -1,6 +1,5 @@
 import * as React from "react";
-
-import { auth } from "../firebase";
+import { auth } from "../../firebase";
 
 interface InterfaceProps {
   error?: any;
