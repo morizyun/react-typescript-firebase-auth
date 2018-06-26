@@ -212,4 +212,3 @@ typings/
 
 # Private
 .idea
-src/firebase/firebase.ts
